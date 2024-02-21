@@ -7,6 +7,7 @@ public class Inputlist {
         System.out.println("Enter the number of elements:");
         int n = scanner.nextInt();
 
+        
         if (n < 0) {
             System.out.println("Invalid number of elements.");
             return;
